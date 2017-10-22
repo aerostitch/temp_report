@@ -1,0 +1,4 @@
+[
+  {"date": "2017-10-21 17:22PST", "title": "Security - IAM activity over the last 7 days", "links": [{"format": "html", "url": "/security/2017-10-21-17-22-42/index.html"}, {"format": "csv", "url": "/security/2017-10-21-17-22-42/20171021_report_iam.csv"}, {"format": "json", "url": "/security/2017-10-21-17-22-42/20171021_report_iam.json"}]},
+  {"date": "2017-10-20 00:00PST", "title": "Security - IAM activity over the last 7 days", "links": [{"format": "html", "url": "/security/2017-10-20-00-00-00/index.html"}, {"format": "csv", "url": "/security/2017-10-20-00-00-00/20171020_report_iam.csv"}, {"format": "json", "url": "/security/2017-10-20-00-00-00/20171020_report_iam.json"}]}
+]

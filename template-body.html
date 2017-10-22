@@ -1,0 +1,23 @@
+{{#categories}}
+  <div class="categories panel panel-info">
+    <div class="panel-heading">
+      <h3 class="panel-title" id="reports_{{category}}">{{category}} reports</h3>
+    </div>
+    <div class="panel-body">
+      <ul class="list-group">
+      {{#reports}}
+        <li class="list-group-item">
+          <div class="row" style="display: flex;align-items: center;">
+          <div class="col-xs-12 col-sm-6 col-md-8">{{title}} generated on {{date}}</div>
+          <div class="col-xs-6 col-md-4 right-block" style="max-width:300px">
+          {{#links}}
+          <a class="btn btn-xs btn-default btn-block" href="{{url}}">{{format}} version</a>
+          {{/links}}
+          </div>
+          </div>
+        </li>
+      {{/reports}}
+      </ul>
+    </div>
+  </div>
+{{/categories}}

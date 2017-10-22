@@ -1,0 +1,6 @@
+{
+  "categories":[
+    {"category": "security", "index_path": "/security"},
+    {"category": "gatling", "index_path": "/gatling"}
+  ]
+}

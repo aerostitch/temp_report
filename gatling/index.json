@@ -1,0 +1,4 @@
+[
+  {"date": "2017-10-21 17:22PST", "title": "Gatling load testing job", "links": [{"format": "html", "url": "/gatling/2017-10-21-17-22-42/index.html"}, {"format": "csv", "url": "/gatling/2017-10-21-17-22-42/20171021_report_iam.csv"}, {"format": "json", "url": "/gatling/2017-10-21-17-22-42/20171021_report_iam.json"}]},
+  {"date": "2017-10-20 00:00PST", "title": "Gatling load testing job", "links": [{"format": "html", "url": "/gatling/2017-10-20-00-00-00/index.html"}, {"format": "csv", "url": "/gatling/2017-10-20-00-00-00/20171020_report_iam.csv"}, {"format": "json", "url": "/gatling/2017-10-20-00-00-00/20171020_report_iam.json"}]}
+]
