@@ -1,23 +1,28 @@
 {{#categories}}
-  <div class="categories panel panel-info">
-    <div class="panel-heading">
+<div class="categories panel panel-info">
+  <div class="panel-heading row" style="margin-right:0; margin-left:0;">
+    <div class="col-xs-12 col-sm-6 col-md-8">
       <h3 class="panel-title" id="reports_{{category}}">{{category}} reports</h3>
     </div>
-    <div class="panel-body">
-      <ul class="list-group">
-      {{#reports}}
-        <li class="list-group-item">
-          <div class="row" style="display: flex;align-items: center;">
-          <div class="col-xs-12 col-sm-6 col-md-8">{{title}} generated on {{date}}</div>
-          <div class="col-xs-6 col-md-4 right-block" style="max-width:300px">
-          {{#links}}
-          <a class="btn btn-xs btn-default btn-block" href="{{url}}">{{format}} version</a>
-          {{/links}}
-          </div>
-          </div>
-        </li>
-      {{/reports}}
-      </ul>
+    <div class="optional-btn col-xs-6 col-md-4 right-block" style="max-width:300px;">
+      <a class="btn btn-xs btn-default btn-block" href="{{job_url}}">{{job_url}}</a>
     </div>
   </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      {{#reports}}
+      <li class="list-group-item">
+        <div class="row" style="display: flex;align-items: center;">
+          <div class="col-xs-12 col-sm-6 col-md-8">{{title}} generated on {{date}}</div>
+          <div class="col-xs-6 col-md-4 right-block" style="max-width:300px">
+            {{#links}}
+            <a class="btn btn-xs btn-default btn-block" href="{{url}}">{{format}} version</a>
+            {{/links}}
+          </div>
+        </div>
+      </li>
+      {{/reports}}
+    </ul>
+  </div>
+</div>
 {{/categories}}

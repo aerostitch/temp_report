@@ -1,6 +1,6 @@
 {
   "categories":[
-    {"category": "security", "index_path": "/security"},
+    {"category": "security", "index_path": "/security", "job_url": "https://my-ci.io/my/job/start/url"},
     {"category": "gatling", "index_path": "/gatling"}
   ]
 }
